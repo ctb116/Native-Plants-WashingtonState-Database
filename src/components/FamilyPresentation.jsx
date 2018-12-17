@@ -6,6 +6,9 @@ function FamilyPresentation(){
   return (
     <div>
       <style jsx>{`
+          div {
+            margin-bottom: 20px;
+          }
       `}</style>
       <Button outline color="success" size="lg">+ More Families</Button>{' '}
       <FamilyList/>

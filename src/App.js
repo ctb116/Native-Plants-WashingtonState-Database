@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import { Container } from 'reactstrap';
 import FamilyPresentation from './components/FamilyPresentation';
+import PlantPresentational from './components/PlantPresentational';
+import NavBar from './components/NavBar';
 
 class App extends Component {
   render() {
     return (
-      <Container>
+      <div>
         <div>
+          <NavBar/>
           <FamilyPresentation/>
+          <PlantPresentational/>
         </div>
-      </Container>
+      </div>
     );
   }
 }
