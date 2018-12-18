@@ -1,10 +1,9 @@
 import React from 'react';
-import '../styles/PlantPresentational.css';
 import PlantList from './PlantList';
 
 function PlantPresentational(){
   return (
-    <div className="grid-container">
+    <div>
         <style jsx>{`
         `}</style>
         <PlantList/>

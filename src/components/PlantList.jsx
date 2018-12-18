@@ -1,4 +1,5 @@
 import React from 'react';
+import StackGrid from "react-stack-grid";
 import Plant from './Plant';
 
 
@@ -37,7 +38,7 @@ var masterPlantList = [
 
 function PlantList(props){
   return (
-  <div>
+  <StackGrid columnWidth={250} duration={150}>
     <style jsx>{`
       `}</style>
       {masterPlantList.map((plant, index) =>
@@ -46,7 +47,7 @@ function PlantList(props){
           imageURL={plant.imageURL}
           key={index}/>
       )}
-    </div>
+    </StackGrid>
     );
   }
 
