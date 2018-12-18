@@ -1,0 +1,18 @@
+.tint {
+  background: rgba(0,255,80, 0.15);
+  height: 400px;
+}
+
+.rainer-image {
+  background-image: url("./static/media/mountrainer.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body {
+  background-image: linear-gradient(to top right, rgba(217,183,144, 0.1), rgba(75,146,138,0.2));
+  height: 100%;
+  background-size: cover;
+}
