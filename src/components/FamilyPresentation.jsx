@@ -1,6 +1,7 @@
 import { Button } from 'reactstrap';
 import React from 'react';
 import FamilyList from './FamilyList';
+import HorizontalScrollMenu from './HorizontalScrollMenu';
 
 function FamilyPresentation(){
   return (
@@ -11,7 +12,7 @@ function FamilyPresentation(){
           }
       `}</style>
       <Button outline color="success" size="lg">+ More Families</Button>{' '}
-      <FamilyList/>
+      <HorizontalScrollMenu/>
     </div>
   );
 }
